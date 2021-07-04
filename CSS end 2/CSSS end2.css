@@ -1,0 +1,177 @@
+/* CSS Document */
+@font-face{
+	src:url("../Font end2/Chiq_Reduced_Regular.ttf");
+		font-family: custom font1
+}
+@font-face{
+	src: url("../Font end2/URW Grotesk Narrow Regular.ttf");
+	font-family: custom font2
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+/*	-----phần đầu----- 	*/
+.logo{
+	height: 60px;
+	width: 200px;
+	float: left;
+}
+.logo img{
+	height: 55px;
+	box-sizing: border-box;
+	padding-top: 15px;
+	padding-left: 20px;
+	magin-top: 5px;
+}
+.container{
+	width: 1260px;
+	margin: 0 auto;
+/*	background: gray; */
+}
+.menu{
+	align-content: center;
+	width: 100vw;
+	height: 20%;
+	background: #FFFFFF;
+	line-height: 70px;
+	object-fit: cover;
+}
+.menu ul{
+	text-align: center;
+	width: 100vw;
+	margin: right;
+}
+.menu a{
+	align-content: center;
+	font-size: 20px;
+}
+.menu ul li{
+	display: inline-block;
+	margin: 0 30px;
+}
+.menu ul li a{
+	color: #131010;
+	text-decoration: none;
+	box-sizing: border-box;
+	padding: 14px 20px;
+	object-fit: cover;
+}
+.container{
+	font-family: custom font1;
+	font-weight: bolder;
+}
+.container{
+	position: absolute;
+	z-index:2;
+}
+#video{
+	width: 100%;
+	height: auto;
+	position: static;	
+	top: 0;
+	left: 0;
+	object-fit: cover;
+}
+video{
+	position: static;
+	z-index:1;
+}
+.menu1 :hover{
+	color: aqua;
+	opacity: 40%;
+}
+
+/*	--------phần thân-------  */
+
+.body{
+	width: 100vw;
+	height: 700px;
+/*	background: grey;	*/
+	font-family: custom font2;
+	align-items: center;
+	object-fit: cover;
+}
+#body1{
+	width: 560px;
+	height: 375px;
+/*	background: lightgrey;	*/
+	float: right;
+	margin-top: 100px;
+	margin-right: 150px;
+	box-sizing: border-box;
+	padding: 30px 30px;
+	border-radius: 5%;
+}
+#body1:hover{
+	background: lightgrey;
+}
+#contentbody{
+	width: 550px;
+	font-size: 70px;
+	color: aqua;
+	padding-bottom: 20px
+}
+.textbody{
+	width: 550px;
+	font-size: 25px;
+	
+}
+.team img{
+	background: gray;
+	width: 30%;
+	float: left;
+	margin-top: 100px;
+	margin-left: 150px;
+}
+.body2{
+	text-align: center;
+	width: 100vw;
+	height: 600px;
+	background: aqua;
+	font-family: custom font2;
+	font-weight: bolder;
+	font-size: 30px;
+	box-sizing: border-box;
+	padding-top: 75px;
+	position: static
+}
+.video_main1{
+	float: left;
+	margin-top: 50px;
+	margin-left: 70px;
+}
+.video_main2{
+	float: right;
+	margin-top: 50px;
+	margin-right: 70px;
+}
+.phan_cuoi{
+	width: 100vw;
+	height: 200px;
+	background: back;text-align: center;
+	font-size: 25px;
+	font-family: custom font2;
+}
+.endmain{
+	width: 100vw;
+	height: 300px;
+	background: grey;
+}
+.endmain img{
+	margin-top: 50px;
+	box-sizing: border-box;
+	padding: 50px 60px 60px 22vw;
+}
+.conent{
+	width: 100vw;
+	font-size: 50px;
+	text-align: center;
+	font-family: custom font2;
+	object-fit: cover;
+	color: aqua;
+	margin-top: 20px;
+}
+
+
+
